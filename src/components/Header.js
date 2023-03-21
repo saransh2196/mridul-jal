@@ -20,10 +20,11 @@ export const Header = () => {
           </ul>
         </div>
       </div>
-      <marquee bgcolor = "transparent" direction = "right" loop="" >Pyas bujhaye jhasgbdhas hjsgbdhjas</marquee>
-      <div className="cover">
-        <img src={cover} alt="cover" />
-      </div>
+      <marquee bgcolor="transparent" direction="right" loop="">
+        Pyas bujhaye jhasgbdhas hjsgbdhjas
+      </marquee>
+      <br />
+      <div className="cover"></div>
     </div>
   );
 };
