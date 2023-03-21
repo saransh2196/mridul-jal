@@ -8,7 +8,7 @@ export const Header = () => {
     <div className="p-container">
       <div className="flex-2">
         <div className="navbar">
-          <img src={img} alt="img-logo" />
+          <img src={img} alt="img-logo" href="#" />
         </div>
         <div>
           <ul className="nav-link">
@@ -20,9 +20,18 @@ export const Header = () => {
           </ul>
         </div>
       </div>
-      <marquee bgcolor = "transparent" direction = "right" loop="" >Pyas bujhaye jhasgbdhas hjsgbdhjas</marquee>
+      {/* <marquee bgcolor="transparent" direction="right" loop="">
+        Pyas bujhaye jhasgbdhas hjsgbdhjas
+      </marquee> */}
+
       <div className="cover">
-        <img src={cover} alt="cover" />
+        <div className="inner">
+          <div className="back">
+            <h3>Hi friends Pani pelo Hi friends Pani pelo</h3>
+            <button className="login">Login</button>
+            <button className="signup">signup</button>
+          </div>
+        </div>
       </div>
     </div>
   );

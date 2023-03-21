@@ -1,12 +1,13 @@
 .p-container {
-  height: 100vh;
+  /* height: 100vh; */
   overflow: auto;
   background: linear-gradient(to top, lightblue, white);
 }
 .navbar > img {
-  width: 150px;
-  height: 100px;
+  width: 130px;
+  height: 80px;
   object-fit: cover;
+  cursor: pointer;
 }
 
 .flex-2 {
@@ -21,9 +22,78 @@
   flex-direction: row;
   gap: 1.5rem;
 }
-.cover > img {
+.nav-link > li {
+  font-size: 1rem;
+  transition: all 400ms ease;
+  -webkit-transition: all 400ms ease;
+  -moz-transition: all 400ms ease;
+  -ms-transition: all 400ms ease;
+  -o-transition: all 100ms ease;
+  margin: 0 0.5rem;
+}
+.nav-link > li:hover {
+  cursor: pointer;
+  /* font-weight: 700; */
+  /* color: blue; */
+  /* background-color: rgb(0, 179, 255); */
+  border-bottom: 2px solid rgb(0, 170, 255);
+  /* padding: 0.5rem 0; */
+  /* font-size: 1.2rem; */
+}
+/* Scroll CSS */
+.cover {
+  /* padding: 120px 0; */
+  background-image: url(../../src/utility/banner_final.png);
+  min-height: 600px;
+  background-attachment: fixed;
+  background-position: cover;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.inner {
+  background-color: rgba(0, 0, 0, 0.5);
+  /* min-height: 600px; */
+  height: 600px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.back {
+  text-align: center;
+}
+
+.back > h3 {
+  text-align: center;
+  color: white;
+  font-size: 6rem;
+  width: 70%;
+  line-height: 1.2;
+  margin: 0 auto;
+}
+button {
+  padding: 0.7rem 3rem;
+  background-color: white;
+  color: white;
+  font-size: 1rem;
+  margin: 2rem 1rem;
+  border: none;
+  font-weight: normal;
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+  text-transform: uppercase;
+}
+.login {
+  background-color: rgb(52, 196, 236);
+}
+.signup {
+  background-color: green;
+}
+/* .cover > img {
   width: 75%;
   display: block;
   margin-left: auto;
   margin-right: auto;
-}
+} */
